@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Variables En JvaScript</title>
+    <title>Les Conditions En JvaScript</title>
     
 </head>
 <body>
-    <h1>Les Variables En JavaScript</h1>
+    <h1>Les Conditions En JavaScript</h1>
     <script>
-        var x = 4 + 2 + "1";
-        var y = "1" + 4 + 2;
-        var z = 2 + "un" + 4;
+        var x = 7 , y = 14;
+        var vrai = x < y;
+        var faux = 14 <= 7;
 
-        alert("Variable x : " + x + typeof(x) +
-              "\nVariable y : " + y + typeof(y) +
-              "\nVariable z : " + z + typeof (z));
+        var egalval = 4 == "4";
+        var egalvaltype = 4 === "4";
 
-       
-       
-              
+        var difval = 4 != "4";
+        var difvaltype = 4 !== "4";
+
+        alert("vrai stocke : "  + vrai +
+              "\nfaux stocke : " + faux +
+              "\negalval stocke : "  + egalval +
+              "\negalvaltype stocke : " + egalvaltype + 
+              "\ndifval stocke : " + difval + 
+              "\ndifvaltype stocke : " + difvaltype);
+        
     </script>
 
 </body>
