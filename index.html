@@ -10,43 +10,17 @@
 <body>
     <h1>Les Variables En JavaScript</h1>
     <script>
-        // Valeur Number
-        var x = 25;
-        var y = -75;
-        var z = 3.14;
+        var x = 5, y = 10, z = -2;
 
-        // Valeur String
+        x += 2; // x = x + 2;
+        x -= 3; // x = x - 3;
 
-        var Prenom = "Evy";
-        var nom = 'Colas';
-        var sexe = "Je suis une femme";
+        y *= x; // y = y * x;
+        y /= 2; // y = y / 2;
 
-        var dpt = "Je vis dans le \"85\" ";
-        var dpt2 = 'Je vis dan le "84"';
-        var ville = 'J\'habite a Rosario';
-        var ville2 = "J'habite a Sao Paulo";
+        y %= x; // y = y % x;
 
-        var xprime = "25";
-        x ="quatre";
-        var c = "true";
-
-        //Valeur Booleanne
-        var a = true , b = false;
-        
-        // Valeur null
-        var n = null;
-        // Valeur undefined
-        var u = undefined;
-        // Valeur NAN
-        var nn = NaN
-
-        alert("variable x : " + typeof (x) +
-              "/nvariable y : " + typeof (y) +
-              "/nvariable a : " + typeof (a) +
-              "/nvariable n : " + typeof (n) +
-              "/nvariable u : " + typeof (u) +
-              "/nvariable nn : " + typeof (nn));
-
+        alert(x);
     </script>
 </body>
 </html>
