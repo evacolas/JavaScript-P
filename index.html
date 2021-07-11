@@ -10,17 +10,18 @@
 <body>
     <h1>Les Variables En JavaScript</h1>
     <script>
-        var x = 5, y = 10, z = -2;
+        var prenom = 'Evangeline ', espace = ' ', nom = 'Colas';
+        var moi = prenom + espace + nom;
+        var toi = 'Jerry' + ' ' + 'Turn';
 
-        x += 2; // x = x + 2;
-        x -= 3; // x = x - 3;
+        var sport = 'courir';
+        var hobbie = "J'aime " + sport;
 
-        y *= x; // y = y * x;
-        y /= 2; // y = y / 2;
-
-        y %= x; // y = y % x;
-
-        alert(x);
+        alert("Contenu de la variable moi : " + moi +
+              "\nContenu de la variable toi : " + toi +
+              "\nContenu de la variable hobbie : " + hobbie); 
+              
     </script>
+
 </body>
 </html>
