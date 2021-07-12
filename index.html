@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operateurs Logiques En JvaScript</title>
+    <title>Simplifications des conditions En JvaScript</title>
     
 </head>
 <body>
-    <h1>Operateurs Logiques En JavaScript</h1>
+    <h1>Simplifications des conditions En JavaScript</h1>
     <script>
         var heure = 18;
 
-        if(!(heure <= 16) == true){
-            alert("Il est plus de 16 heures");
+        if(heure < 12 == true){
+            alert("Il est midi passe");
         }
-        else{
-            alert("Il est moins de heures");
+
+        if (heure > 12) {
+            alert("Il est midi passe");
         }
        
     </script>
