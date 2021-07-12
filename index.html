@@ -10,14 +10,20 @@
 <body>
     <h1>Les Conditions En JavaScript</h1>
     <script>
-        var heure = 21;
+        var heure = 12;
 
-        if (heure <= 18 == true) {
-            alert("Bonjour");
+        if (heure < 12 == true) {
+            alert("C'est le matin");
+        }
+        else if( heure == 12 == true) {
+            alert("Il est midi");
+        }
+        else if(heure <= 18 == true) {  
+            alert("C'est l'apres-midi");
         }
         else{
-            alert("Bonsoir");
-        }
+            alert("Cest le soir");
+    }
     </script>
 
 </body>
