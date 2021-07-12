@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les Conditions En JvaScript</title>
+    <title>Operateurs Logiques En JvaScript</title>
     
 </head>
 <body>
-    <h1>Les Conditions En JavaScript</h1>
+    <h1>Operateurs Logiques En JavaScript</h1>
     <script>
-        var heure = 12;
+        var heure = 9;
 
-        if (heure < 12 == true) {
+        if (heure >= 0 && heure > 12 == true) {
             alert("C'est le matin");
         }
-        else if( heure == 12 == true) {
-            alert("Il est midi");
+        else if( heure === 12 == true) {
+            alert("Il est midi pile");
         }
-        else if(heure <= 18 == true) {  
-            alert("C'est l'apres-midi");
+        else if(heure > 12 && heure  <= 24 == true) {  
+            alert("C'est l'apres-midi ou le soir");
         }
         else{
-            alert("Cest le soir");
+            alert("La valeur entree ne semble pas valide");
     }
     </script>
 
