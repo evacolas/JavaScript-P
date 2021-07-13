@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simplifications des conditions En JvaScript</title>
+    <title>Les Ternaires</title>
     
 </head>
 <body>
-    <h1>Simplifications des conditions En JavaScript</h1>
+    <h1>Les Ternaires</h1>
     <script>
-        var heure = 18;
-
-        if(heure < 12 == false ){
-            alert("Il est midi passe");
+        var heure = 12, bon = "";
+        /*
+        bon = (heure <= 18) ? "Bonjour" : "Bonsoir";
+        alert("bon");
+        */
+        if (heure <= 18) {
+            bon = "Bonjour";
         }
-
-        if(!(heure < 12)){
-            alert("Il est midi passe");
+        else {
+            bon = "Bonsoir"
         }
-       
+        alert("bon");
     </script>
 
 </body>
